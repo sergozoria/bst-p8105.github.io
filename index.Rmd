@@ -10,7 +10,7 @@ output:
 
 What if I had some texts here?
 
-![](https://media.giphy.com/media/drXGoW1iudhKw/giphy.gif)
+![](https://media4.giphy.com/media/v1.Y2lkPTc5MGI3NjExZnpoYmRleG13dTJpdDFtaG9qdjVieTR6YjdsZ2ZzNWV3b3NjYzc2ZCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/JRlqKEzTDKci5JPcaL/giphy.gif)
 
 ## here's a subsection
 
