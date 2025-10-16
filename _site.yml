@@ -11,6 +11,6 @@ navbar:
       href: https://github.com/sergozoria
 output:   
   html_document:
-    theme: cerulean
+    theme: darkly
     
     
