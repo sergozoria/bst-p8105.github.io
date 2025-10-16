@@ -1,0 +1,35 @@
+---
+title: "My awesome website"
+output: 
+  html_document:
+    toc: true
+    toc_float: true
+---
+
+# This is Serg's awesome website
+
+What if I had some texts here?
+
+![](https://media.giphy.com/media/drXGoW1iudhKw/giphy.gif)
+
+## here's a subsection
+
+Here are some additional text
+
+```{r}
+set.seed(123)
+rnorm(15)
+```
+
+## let's use links
+
+* [Google](https://www.google.com)
+* [p8105](https://p8105.com)
+
+## local image
+
+![](images/pikachu.png)
+
+# link to page within the site
+
+[About me](about.html)
