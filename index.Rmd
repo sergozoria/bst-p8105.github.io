@@ -6,6 +6,8 @@ output:
     toc_float: true
 ---
 
+Every website should have an index page. What every browser looks for. Also case sensitive. 
+
 # This is Serg's awesome website
 
 What if I had some texts here?
@@ -23,8 +25,7 @@ rnorm(15)
 
 ## let's use links
 
-* [Google](https://www.google.com)
-* [p8105](https://p8105.com)
+I alsop use [Google](https://www.google.com) a ton for data science, and I reference [p8105](https://p8105.com) a lot for that. Learn more about this [here](about.html)
 
 ## local image
 
@@ -33,3 +34,5 @@ rnorm(15)
 # link to page within the site
 
 [About me](about.html)
+
+To show RMD like normal, check out [this page](plots.html)
