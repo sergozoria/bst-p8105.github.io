@@ -11,7 +11,7 @@
 
 
 
-<title>About this website</title>
+<title>Plotly examples</title>
 
 <script src="site_libs/header-attrs-2.29/header-attrs.js"></script>
 <script src="site_libs/jquery-3.6.0/jquery-3.6.0.min.js"></script>
@@ -350,16 +350,57 @@ div.tocify {
 
 
 
-<h1 class="title toc-ignore">About this website</h1>
+<h1 class="title toc-ignore">Plotly examples</h1>
 
 </div>
 
 
-<div id="this-page-has-info-about-me" class="section level1">
-<h1>This page has info about me</h1>
-<p>What if I had some texts here?</p>
-<p>I’m taking p8105</p>
-<p>go back to the <a href="index.html">homepage</a></p>
+<p>Plotly helps build interactive dashboards using HTML, CSS, and other
+web-friendly platform. It does not work great with github documents.
+Java-script library as well as css are built in the background</p>
+<p>You can access plotly from python and other things. We can do it
+directly from R without having to learn a new software</p>
+<p>Plotly carries the same basic grammar of graphics idea in ggplot.
+Thought process of datase,t variables, and the type of plot</p>
+<p>Interactive using plotly is great but we don’t always need it. Think
+about the purpose of interactivity. It is handy to be able to interact
+with a plot such as zooming on specific groups or values or covey
+additional information that it’s not obvious from color, size or
+shape</p>
+<p>Dashboards basically of products that show multiple interactive data
+in one place. If we need someone to interact with the data, it is
+helpful to create interactive dashboards. Basically a collection of
+plots arranged in some way</p>
+<div id="examples-of-plotly" class="section level1">
+<h1>Examples of plotly</h1>
+<pre class="r"><code>library(tidyverse)</code></pre>
+<pre><code>## ── Attaching core tidyverse packages ──────────────────────── tidyverse 2.0.0 ──
+## ✔ dplyr     1.1.4     ✔ readr     2.1.5
+## ✔ forcats   1.0.0     ✔ stringr   1.5.2
+## ✔ ggplot2   3.5.2     ✔ tibble    3.3.0
+## ✔ lubridate 1.9.4     ✔ tidyr     1.3.1
+## ✔ purrr     1.1.0     
+## ── Conflicts ────────────────────────────────────────── tidyverse_conflicts() ──
+## ✖ dplyr::filter() masks stats::filter()
+## ✖ dplyr::lag()    masks stats::lag()
+## ℹ Use the conflicted package (&lt;http://conflicted.r-lib.org/&gt;) to force all conflicts to become errors</code></pre>
+<pre class="r"><code>library(p8105.datasets)
+library(plotly)</code></pre>
+<pre><code>## 
+## Attaching package: &#39;plotly&#39;
+## 
+## The following object is masked from &#39;package:ggplot2&#39;:
+## 
+##     last_plot
+## 
+## The following object is masked from &#39;package:stats&#39;:
+## 
+##     filter
+## 
+## The following object is masked from &#39;package:graphics&#39;:
+## 
+##     layout</code></pre>
+<pre class="r"><code>data(&quot;nyc_airbnb&quot;)</code></pre>
 </div>
 
 

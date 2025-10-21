@@ -1,0 +1,30 @@
+---
+title: "Plotly examples"
+output: 
+  html_document:
+    toc: true
+    toc_float: true
+---
+
+Plotly helps build interactive dashboards using HTML, CSS, and other web-friendly platform. It does not work great with github documents. Java-script library as well as css are built in the background
+
+You can access plotly from python and other things. We can do it directly from R without having to learn a new software
+
+Plotly carries the same basic grammar of graphics idea in ggplot. Thought process of datase,t variables, and the type of plot
+
+Interactive using plotly is great but we don't always need it. Think about the purpose of interactivity. It is handy to be able to interact with a plot such as zooming on specific groups or values or covey additional information that it's not obvious from color, size or shape 
+
+Dashboards basically of products that show multiple interactive data in one place. If we need someone to interact with the data, it is helpful to create interactive dashboards. Basically a collection of plots arranged in some way
+
+# Examples of plotly
+
+```{r}
+library(tidyverse)
+library(p8105.datasets)
+library(plotly)
+```
+
+```{r}
+data("nyc_airbnb")
+```
+
