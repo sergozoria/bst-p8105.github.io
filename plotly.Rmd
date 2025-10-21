@@ -24,6 +24,8 @@ library(p8105.datasets)
 library(plotly)
 ```
 
+We're mutating the rating and diving it by two in order to get the rating. We then select our columns and filter by misisng variables and create parameters/filers around the variables we want to plot
+
 ```{r}
 data(nyc_airbnb)
 
@@ -40,6 +42,7 @@ nyc_airbnb =
 ```
 
 
+
 ```{r}
 nyc_airbnb |>
   mutate(text_label = str_c("Price: $", price, "\nRating: ", rating)) |> 
@@ -49,10 +52,19 @@ nyc_airbnb |>
 ```
 
 
+
 ```{r}
 nyc_airbnb |> 
   mutate(neighbourhood = fct_reorder(neighbourhood, price)) |> 
   plot_ly(y = ~price, color = ~neighbourhood, type = "box", colors = "viridis")
 ```
 
+
+
+```{r}
+nyc_airbnb |> 
+  count(neighbourhood) |> 
+  mutate(neighbourhood = fct_reorder(neighbourhood, n)) |> 
+  plot_ly(x = ~neighbourhood, y = ~n, color = ~neighbourhood, type = "bar", colors = "viridis")
+```
 
